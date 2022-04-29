@@ -1,0 +1,8 @@
+<view style="display: flex; flex-direction: column;overflow: scroll;padding-bottom: {{paddingBottom}}px;">
+    <!-- <open-data type="userAvatarUrl"></open-data> -->
+    <view style="height: 50px;width: 50px;"><open-data type="userAvatarUrl" ></open-data></view>
+    <text>###################################</text>
+    <text>System Info</text>
+    <text>-----------------------------------</text>
+    <text wx:for="{{sys}}">{{item.key}}: {{item.info}}</text>
+</view>

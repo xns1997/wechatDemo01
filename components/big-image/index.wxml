@@ -1,0 +1,4 @@
+<view class="big-image-outer">
+  <image class="big-image-image" src="{{src}}" mode="aspectFit">
+  </image>
+</view>

@@ -1,0 +1,8 @@
+.big-image-outer{
+  display: flex;
+  justify-content: center;
+  height: 160px;
+}
+.big-image-image{
+  height: 100%;
+}

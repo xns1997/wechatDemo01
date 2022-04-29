@@ -1,0 +1,7 @@
+<view class="note-bar-outer" >
+    <view class="note-bar-unit" wx:for="{{srcData}}" wx:for-item = "set">
+        <text wx:for="{{set}}" class="{{str.style}}" wx:for-item="str">
+            {{str.data}}
+        </text>
+    </view>
+</view>

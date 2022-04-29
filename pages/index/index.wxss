@@ -1,19 +1,30 @@
 /**index.wxss**/
-.userinfo {
+.container{
+  align-items: center;
+  padding-top: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  color: #aaa;
+  /* flex: 1; */
 }
-
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+big-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
 }
-
-.usermotto {
-  margin-top: 200px;
+note-bar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+activity-card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+add-card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
 }

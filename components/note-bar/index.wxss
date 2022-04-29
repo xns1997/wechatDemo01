@@ -1,0 +1,30 @@
+.note-bar-outer{
+    height: 40px;
+    background-color: #504F4F;
+    border-radius:20px ;
+    /* padding-top: 2px;
+    padding-bottom: 2px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.note-bar-unit{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.note-bar-unit>text{
+    line-height:15%;
+}
+.dynStyle{
+    color: #00921D;
+}
+.staticStyle{
+    color: #ffffff;
+}

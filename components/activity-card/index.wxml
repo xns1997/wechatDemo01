@@ -1,0 +1,35 @@
+<view class="activity-card-outer">
+    <text wx:if="{{title!=\'\'}}">
+        {{title}}
+    </text>
+    <view 
+        class="activity-card-contents-outer"
+        wx:if="{{content!=[]}}" 
+    >
+        <view 
+            wx:for="{{contents}}" 
+            wx:for-item="unit"
+            class="activity-card-contents-inner"
+        >
+            <text wx:if="{{unit.type==\'text\'}}">
+                {{unit.content}}
+            </text>
+            <image
+                class="activity-card-image"
+                wx:if="{{unit.type==\'image\'}}"
+                src="{{unit.url}}"
+                mode="aspectFit"
+            ></image>
+        </view>
+    </view>
+    <button 
+        wx:if="{{activities!=[]}}" 
+        wx:for="{{activities}}" 
+        wx:for-item="unit"
+        bindtap="gotoPage"
+        data-hi="Weixin"
+        style="background-color: {{unit.buttonColor}};color:#ffffff;"
+    >
+    {{unit.title}}
+    </button>
+</view>

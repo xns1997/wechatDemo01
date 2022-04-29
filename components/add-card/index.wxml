@@ -1,0 +1,13 @@
+<!--components/add-card/index.wxml-->
+<view class="add-card-outer">
+    <text class="add-card-title">{{title}}</text>
+    <view class="add-card-three-circles">
+        <view class="add-card-circle">+</view>
+        <view class="add-card-circle">+</view>
+        <view class="add-card-circle">+</view>
+    </view>
+    <view class="add-card-go">
+        <button class="add-card-go-button">></button>
+    </view>
+    
+</view>

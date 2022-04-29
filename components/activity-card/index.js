@@ -1,0 +1,24 @@
+Component({
+    data:{
+        titleCheck:false,
+        contentsCheck:false,
+        actCheck:false
+    },
+    properties:{
+        title:{type:String,value:""},
+        contents:{type:Array,value:[]},
+        activities:{type:Array,value:[]}
+    },
+    methods:{
+        gotoPage(e){
+            wx.navigateTo({
+              url: '../../pages/test01/test01',
+            })
+        }
+    },
+    pageLifetimes:{
+        show:function(){
+            console.log(this.properties.activities);
+        }
+    },
+});

@@ -1,13 +1,36 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/profile/profile",
+    "pages/logs/logs",
+    "pages/test01/test01"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#ffffff",
+    "selectedColor": "#11cd6e",
+    "position": "bottom",
+    "list": [
+        {
+            "pagePath":"pages/index/index",
+            "text": "主页",
+            "iconPath": "assets/icons/heart-pulse-solid.png",
+            "selectedIconPath": "assets/icons/heart-pulse-solid.png"
+        },
+        {
+          "pagePath":"pages/profile/profile",
+          "text": "我的",
+          "iconPath": "assets/icons/envelope-solid.png",
+          "selectedIconPath": "assets/icons/envelope-solid.png"
+        }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
